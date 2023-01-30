@@ -1,6 +1,7 @@
-Operation = input(('Выберите операцию: '))
+
 a = int(input('Введите первое число a: '))
 b = int(input('Введите первое число b: '))
+Operation = input(('Выберите операцию: '))
 
 if Operation == '+':
     print('{} + {}  '.format(a, b))
